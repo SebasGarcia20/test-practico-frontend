@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Test para aspirar al área de front-end en NEORIS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Se desarrolla una aplicación para visualizar los pokemons, crear, eliminar y editar los pokemons haciendo uso de una API alojada en Heroku.
 
-## Available Scripts
+## Tecnologías implementadas
 
-In the project directory, you can run:
+El proyecto se desarrollo haciendo uso de **ReactJS** (18.2.0)
 
-### `npm start`
+## Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La prueba consta de 3 escenarios para la evaluación de esta misma pero en este caso se han implementado los 2 escenarios listados a continuación:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Escenario A: Maquetar diseño propuesto
 
-### `npm test`
+Dado: que se desea evaluar el nivel de conocimiento en el desarrollo Fron-end.  
+Como: Evaluador  
+Requiero: que se maquete, implemente el diseño propuesto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Escenario C: Implementación de funcionalidad
 
-### `npm run build`
+Dado: que se desea mostrar elementos consumidos desde un API.  
+Como: Evaluador  
+Requiero: se muestren los elementos consumidos desde la API en el diseño
+propuesto, además que se puedan realizar las acciones de búsqueda, crear,
+eliminar y editar mediante el consumo de la API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Además de cumplir las siguientes Notas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Se debe implementar de buenas prácticas (clean code, SOLID)
+* Se debe implementar TDD.
+* No se debe usar ningún framework de estilos o componentes prefabricados para maquetar el diseño propuesto.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instalación y ejecución
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Es necesario tener instalado [**NodeJs**](https://nodejs.org/) y seguir los siguientes pasos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clonar el repositorio
+```shell
+git clone https://github.com/SebasGarcia20/test-practico-frontend.git
+```
+Posicionar se dentro de la raíz del proyecto y ejecutar el comando npm install, así instalar las dependencias del proyecto
+```shell
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Iniciar el proyecto haciendo uso de
+```shell
+npm start
+```
 
-## Learn More
+## Contacto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para contactarme puede ser por los siguientes medios:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Correo: garciaflorez.sebastian@gmail.com
+* linkedin: [sebasflorez99](https://www.linkedin.com/in/sebasflorez99/)
